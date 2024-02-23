@@ -1,0 +1,104 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Список</title>
+    <style>
+        ol {
+           
+            list-style: none;
+            
+            counter-reset: li;
+        }
+
+        li:before {
+            
+            counter-increment: li;
+            content: '('counters(li, ".") ".) ";
+        }
+    </style>
+</head>
+
+<body>
+    <ul start="1">
+        <ol>
+            <li>Элемент списка</li>
+            <li>Элемент списка</li>
+            <li>Элемент списка
+                <ol>
+                    <li>Элемент вложенного списка первого уровня
+                        <ol>
+                            <li>Элемент вложенного списка второго уровня</li>
+                            <li>Элемент вложенного списка второго уровня</li>
+                            <li>Элемент вложенного списка второго уровня</li> 
+                        </ol>
+                    </li>
+                    <li>Элемент вложенного списка первого уровня</li>
+                    <li>Элемент вложенного списка первого уровня</li>
+                </ol>
+            </li>
+            <li>Элемент списка</li>
+            <li>Элемент списка</li>
+        </ol>
+    </ul>
+</body>
+
+</html> -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Расписание фитнес центра</title>
+</head>
+<body>
+    <h1>Расписание фитнес центра</h1>
+    <table>
+        <colgroup>
+          <col span="2" style="background:Khaki">
+          <col style="background-color:LightCyan">
+        </colgroup>
+        <tr>
+          <th>Наименование услуги</th>
+          <th>Время</th>
+          <th>ФИО тренера</th>
+        </tr>
+        <tr>
+          <td>Йога</td>
+          <td>Понедельник 10:00-11:00</td>
+          <td>Иванова А.С.</td>
+        </tr>
+        <tr>
+          <td>Бассейн</td>
+          <td>Вторник 15:00-17:00</td>
+          <td>Сидоров П.И.</td>
+        </tr>
+        <tr>
+            <td>Индивидуальный тренинг</td>
+            <td>Пн,Вт,Пт 12:00-14:00</td>
+            <td>Васильев С.В.</td>
+          </tr>
+          <tr>
+            <td>Боевые искусства</td>
+            <td>Среда 17:00-21:00</td>
+            <td>Жуков Д.С.</td>
+          </tr>
+          <tr>
+            <td>Тренажерный зал</td>
+            <td>Пн,Вт,Ср,Чт,Пт,Сб 8:00-23:00</td>
+            <td>Семенова М.Ф.</td>
+          </tr>
+      </table>
+      <br>
+      <audio controls loop>
+        <source src="./audio/field-grass-115973.mp3" type="audio/mpeg">
+    </audio>
+    <br>
+    <video controls poster="./images/9169909f3e45e394aafe6ea01c974ccd.jpeg">
+        <source src="./video/krasiviy-kosmos-video-4k-ultra-hd-60fps-krasota-vselennoy-v-4k-uhd_(VIDEOMIN.NET).mp4" type="video/mp4">
+        <track src="./Sub/Sub.vtt" kind="subtitles" srclang="ru" label="Русский">
+    </video>
+
+</body>
+</html>
